@@ -12,7 +12,8 @@
   "url": "https://github.com/zcnxs-official/Purple-Stream-Visual-Studio-Code-Theme-.git"
   },
   "categories": [
-    "Themes"
+    "Themes",
+    "Other"
   ],
   "contributes": {
     "themes": [

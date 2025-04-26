@@ -1,0 +1,32 @@
+{
+  "name": "purple-stream-theme",
+  "displayName": "Purple Stream",
+  "description": "A modern dark purple-themed theme for Visual Studio Code",
+  "version": "1.0.7",
+  "publisher": "ZCNXS",
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/zcnxs-official/Purple-Stream-Visual-Studio-Code-Theme-.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purple Stream",
+        "uiTheme": "vs-dark",
+        "path": "./themes/purple-stream-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "config-git": "git config --global user.email 'demonelicharles@gmail.com' && git config --global user.name 'zcnxs-official'",
+    "build": "vsce package --out ./dist/built/public-build(latest).vsix && git add . && git commit -m \"build: update theme package\" && git push",
+    "publish": "vsce publish && git push",
+    "dev": "vsce package --out ./dist/built/dev-build(latest).vsix"
+  }
+}

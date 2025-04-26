@@ -1,0 +1,26 @@
+- 1.0.0
+Created Theme
+
+- 1.0.1
+Updated Colors
+Added Support for Html, Css, Javascript
+
+- 1.0.2
+Updated Colors
+
+- 1.0.3
+Updated Colors
+Updated Name
+
+- 1.0.4 
+Updated Colors
+Added Json Support
+
+- 1.0.5
+Added License.txt
+
+- 1.0.6 
+Added Changelog.txt
+
+- 1.0.7
+Added Github Repository

@@ -25,8 +25,8 @@
   },
   "scripts": {
     "config-git": "git config --global user.email 'demonelicharles@gmail.com' && git config --global user.name 'zcnxs-official' && git remote add origin 'https://github.com/zcnxs-official/Purple-Stream-Visual-Studio-Code-Theme-.git' && git remote -v",
-    "build": "vsce package --out ./dist/built/public-build(latest).vsix && git add . && git commit -m \"build: update theme package\" && git push",
-    "publish": "vsce publish && git push",
+    "build": "vsce package --out ./dist/built/public-build(latest).vsix && git add . && git commit -m \"build: update theme package\" && git push --set-upstream origin main",
+    "publish": "vsce publish && git push --set-upstream origin main",
     "dev": "vsce package --out ./dist/built/dev-build(latest).vsix"
   }
 }
